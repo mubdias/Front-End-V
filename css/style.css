@@ -6,8 +6,6 @@
 
 body {
     position: relative;
-    height: 1024px;
-    width: 1024px;
     background: #FFFFFF;
 }
 
@@ -180,18 +178,6 @@ header {
     background-image: url(/img/Vector.png);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .harley {
     position: absolute;
     width: 374px;
@@ -211,17 +197,6 @@ header {
     background-image: url(/img/arlequina-background.png);
 }
 
-.harley-profile {
-    position: absolute;
-    width: 135.43px;
-    height: 135.43px;
-    background-image: url(/img/batman-profile.png);
-    border-radius: 80px;
-    top: 150px;
-    left: 116px;
-    z-index: 1;
-}
-
 .card-harley {
     position: absolute;
     width: 374px;
@@ -232,13 +207,13 @@ header {
 .card-fundo-harley {
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/batman-background.png);
+    background-image: url(/img/arlequina-background.png);
 }
 
 .retrato-harley {
     width: 135.43px;
     height: 135.43px;
-    background-image: url(/img/batman-profile.png);
+    background-image: url(/img/harley-profile.png);
     border-radius: 80px;
     top: 150px;
     left: 116px;
@@ -299,6 +274,7 @@ header {
     top: 20px;
     left: 20px;
     cursor: pointer;
+    background-image: url(/img/Vector.png);
 }
 
 footer {
