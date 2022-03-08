@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    position: relative;
+    height: 1024px;
+    width: 1024px;
+    background: #FFFFFF;
+}
+
+main {
+    top: 223px;
+    position: absolute;
+    width: 834px;
+    height: 597.01px;
+    left: 112px;
+}
+
+.discount {
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background: #1CD1B0;
+}
+
+.discount-text {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    left: 10px;
+    line-height: 38px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    border: 1px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.super-text {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 25px;
+}
+
+.cards {
+    position: absolute;
+    width: 834px;
+    height: 597.01px;
+    left: 112px;
+    top: 223.99px;
+}
+
+.batman {
+    position: absolute;
+    width: 374px;
+    height: 218.94px;
+    background-image: url(/img/batman-background.png);
+}
+
+.frame-batman {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.batman-background {
+    width: 374px;
+    height: 218.94px;
+    background-image: url(/img/batman-background.png);
+}
+
+.batman-profile {
+    position: absolute;
+    width: 135.43px;
+    height: 135.43px;
+    background-image: url(/img/batman-profile.png);
+    border-radius: 80px;
+    top: 150px;
+    left: 116px;
+    z-index: 1;
+}
+
+.card-batman {
+    position: absolute;
+    width: 374px;
+    height: 597.01px;
+}
+
+.card-fundo-batman {
+    width: 374px;
+    height: 218.94px;
+    background-image: url(/img/batman-background.png);
+}
+
+.retrato-batman {
+    width: 135.43px;
+    height: 135.43px;
+    background-image: url(/img/batman-profile.png);
+    border-radius: 80px;
+    top: 150px;
+    left: 116px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container-batman {
+    position: absolute;
+    top: 218px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 439px;
+}
+
+.titulo-batman {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 94px;
+    margin-block-end: 20px;
+    color: #000000;
+}
+
+.texto-batman {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 36px;
+    margin-left: 36px;
+    color: #333333;
+}
+
+.button-batman {
+    position: absolute;
+    width: 145.34px;
+    height: 54.76px;
+    left: 109px;
+    top: 340px;
+    background-color: #00669F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.coracao-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    background-image: url(/img/Vector.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.harley {
+    position: absolute;
+    width: 374px;
+    height: 218.94px;
+}
+
+.frame-harley {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.harley-background {
+    width: 374px;
+    height: 218.94px;
+    background-image: url(/img/arlequina-background.png);
+}
+
+.harley-profile {
+    position: absolute;
+    width: 135.43px;
+    height: 135.43px;
+    background-image: url(/img/batman-profile.png);
+    border-radius: 80px;
+    top: 150px;
+    left: 116px;
+    z-index: 1;
+}
+
+.card-harley {
+    position: absolute;
+    width: 374px;
+    height: 597.01px;
+    left: 484px;
+}
+
+.card-fundo-harley {
+    width: 374px;
+    height: 218.94px;
+    background-image: url(/img/batman-background.png);
+}
+
+.retrato-harley {
+    width: 135.43px;
+    height: 135.43px;
+    background-image: url(/img/batman-profile.png);
+    border-radius: 80px;
+    top: 150px;
+    left: 116px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container-harley {
+    position: absolute;
+    top: 218px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 439px;
+}
+
+.titulo-harley {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 94px;
+    margin-block-end: 20px;
+    color: #000000;
+}
+
+.texto-harley {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 36px;
+    margin-left: 36px;
+    color: #333333;
+}
+
+.button-harley {
+    position: absolute;
+    width: 145.34px;
+    height: 54.76px;
+    left: 109px;
+    top: 340px;
+    background-color: #00669F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.coracao-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-text {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF9F9;
+    left: 28px;
+}
