@@ -12,7 +12,7 @@ body {
 main {
     top: 223px;
     position: absolute;
-    width: 834px;
+    width: 100%;
     height: 597.01px;
     left: 112px;
 }
@@ -20,7 +20,7 @@ main {
 .discount {
     position: fixed;
     z-index: 2;
-    width: 1024px;
+    width: 100%;
     height: 38px;
     left: 0px;
     top: 0px;
@@ -41,7 +41,7 @@ main {
 header {
     position: fixed;
     z-index: 2;
-    width: 1024px;
+    width: 100%;
     height: 101px;
     left: 0px;
     top: 38px;
@@ -103,6 +103,7 @@ header {
     position: absolute;
     width: 374px;
     height: 597.01px;
+    left: 162px;
 }
 
 .card-fundo-batman {
@@ -170,12 +171,11 @@ header {
     color: #F3F3F3;
 }
 
-.coracao-container {
+.coracao-batman {
     position: absolute;
     top: 20px;
     left: 20px;
     cursor: pointer;
-    background-image: url(/img/Vector.png);
 }
 
 .harley {
@@ -201,7 +201,7 @@ header {
     position: absolute;
     width: 374px;
     height: 597.01px;
-    left: 484px;
+    left: 780px;
 }
 
 .card-fundo-harley {
@@ -269,17 +269,16 @@ header {
     color: #F3F3F3;
 }
 
-.coracao-container {
+.coracao-harley {
     position: absolute;
     top: 20px;
     left: 20px;
     cursor: pointer;
-    background-image: url(/img/Vector.png);
 }
 
 footer {
     position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 51px;
     left: 0px;
     top: 972px;
