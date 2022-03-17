@@ -67,13 +67,6 @@ header {
     top: 223.99px;
 }
 
-.batman {
-    position: absolute;
-    width: 374px;
-    height: 218.94px;
-    background-image: url(../img/batman-background.png);
-}
-
 .frame-batman {
     position: absolute;
     top: 20px;
