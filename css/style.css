@@ -71,7 +71,7 @@ header {
     position: absolute;
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/batman-background.png);
+    background-image: url(../img/batman-background.png);
 }
 
 .frame-batman {
@@ -84,14 +84,14 @@ header {
 .batman-background {
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/batman-background.png);
+    background-image: url(../img/batman-background.png);
 }
 
 .batman-profile {
     position: absolute;
     width: 135.43px;
     height: 135.43px;
-    background-image: url(/img/batman-profile.png);
+    background-image: url(../img/batman-profile.png);
     border-radius: 80px;
     top: 150px;
     left: 116px;
@@ -108,13 +108,13 @@ header {
 .card-fundo-batman {
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/batman-background.png);
+    background-image: url(../img/batman-background.png);
 }
 
 .retrato-batman {
     width: 135.43px;
     height: 135.43px;
-    background-image: url(/img/batman-profile.png);
+    background-image: url(../img/batman-profile.png);
     border-radius: 80px;
     top: 150px;
     left: 116px;
@@ -187,7 +187,7 @@ header {
 .harley-background {
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/arlequina-background.png);
+    background-image: url(../img/arlequina-background.png);
 }
 
 .card-harley {
@@ -200,13 +200,13 @@ header {
 .card-fundo-harley {
     width: 374px;
     height: 218.94px;
-    background-image: url(/img/arlequina-background.png);
+    background-image: url(../img/arlequina-background.png);
 }
 
 .retrato-harley {
     width: 135.43px;
     height: 135.43px;
-    background-image: url(/img/harley-profile.png);
+    background-image: url(../img/harley-profile.png);
     border-radius: 80px;
     top: 150px;
     left: 116px;
